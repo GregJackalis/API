@@ -32,7 +32,7 @@ api.add_middleware(
 
 @api.get("/")
 def default():
-    return{"message": "hello world!"}
+    return{"message": "HELLO WORLD!"}
 # def findPost(id):
 #     for p in myPosts:
 #         if p['id'] == id:
