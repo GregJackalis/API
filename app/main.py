@@ -14,6 +14,8 @@ from fastapi.middleware.cors import CORSMiddleware
 
 # tables.Base.metadata.create_all(bind=engine)
 
+##for Procfile (deploying with Heroku)
+#web: uvicorn app.main:api --host=0.0.0.0 --port=${PORT: -5000}
 
 
 api = FastAPI()
