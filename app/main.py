@@ -3,7 +3,6 @@ from fastapi import FastAPI
 #python communicator with sql library
 
 #libraries for orm to work
-from . import tables
 from .database import engine
 
 from .routers import post, user, auth, vote
